@@ -17,7 +17,7 @@ function Cliente({ cliente }) {
           {telefono}
         </p>
       </td>
-        <td className="p-5 flex">
+        <td className="p-5 flex justify-center">
             <button 
             type="button"
             className="text-blue-600 hover:text-blue-700 uppercase font-bold text-xs">
@@ -25,7 +25,7 @@ function Cliente({ cliente }) {
             </button>
 
         </td>
-        <td className="p-5 flex">
+        <td className="p-5 flex justify-center">
             <button 
             type="button"
             className="text-red-600 hover:text-red-700 uppercase font-bold text-xs">
